@@ -3,6 +3,25 @@
 
 
 
+package {
+    default_applicable_licenses: [
+        "external_rust_crates_static_assertions_license",
+    ],
+}
+
+// Added automatically by a large-scale-change
+// See: http://go/android-license-faq
+license {
+    name: "external_rust_crates_static_assertions_license",
+    visibility: [":__subpackages__"],
+    license_kinds: [
+        "SPDX-license-identifier-Apache-2.0",
+    ],
+    license_text: [
+        "LICENSE-APACHE",
+    ],
+}
+
 rust_library_rlib {
     name: "libstatic_assertions",
     host_supported: true,
