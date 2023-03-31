@@ -1,6 +1,5 @@
 {
     "device": true,
-    "force-rlib": true,
     "no_pkg_vers": true,
     "min-sdk-version": "29",
     "vendor-available": true,
