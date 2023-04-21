@@ -101,6 +101,9 @@
 )]
 #![no_std]
 
+#[cfg(android_dylib)]
+extern crate std;
+
 #[cfg(feature = "proc_static_assertions")]
 extern crate proc_static_assertions;
 #[cfg(feature = "proc_static_assertions")]
